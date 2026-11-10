@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materias Registradas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Registro de Materias</h1>
+        <p>Carrera de Sistemas de Información</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="registro.html">Registrar Materias</a>
+        <a href="materias.html">Materias Registradas</a>
+    </nav>
+
+    <main>
+        <h2>Materias Registradas</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Materia</th>
+                    <th>Nivel</th>
+                    <th>Créditos</th>
+                    <th>Docente</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+
+            <tbody id="tablaMaterias">
+            </tbody>
+        </table>
+
+        <p id="mensajeTabla" aria-live="polite"></p>
+    </main>
+
+    <footer>
+        <p>Proyecto de Desarrollo Basado en Plataformas Web</p>
+    </footer>
+
+    <script src="js/funciones.js"></script>
+
+</body>
+</html>
