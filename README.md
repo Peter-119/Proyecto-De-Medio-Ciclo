@@ -1,2 +1,0 @@
-# Proyecto-De-Medio-Ciclo
- DESARROLLO BASADO EN pLATAFORMAS
